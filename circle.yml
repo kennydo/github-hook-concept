@@ -1,3 +1,13 @@
+machine:
+  node:
+    version: 5.7.0
+
 test:
   override:
     - echo "No tests right now. Always pass!"
+
+deployment:
+  hookio:
+    branch: master
+    commands:
+      - npm update-hookio

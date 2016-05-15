@@ -1,0 +1,14 @@
+
+{
+  "name": "github-hook-concept",
+  "version": "0.0.1",
+  "description": "Just goofing around with Github, Circle CI, and Hook.io",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kennydo/github-hook-concept"
+  },
+  "dependencies": {
+    "hook.io-sdk": "1.1.0"
+  }
+}
